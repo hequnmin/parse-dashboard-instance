@@ -1,0 +1,18 @@
+{
+  "apps": [{
+      "serverURL":"https://parse-dashboard-instances.herokuapp.com",
+      "appId":"bec",
+      "masterKey":"bec",
+      "appName":"Becheer",
+      "iconName": "logo.svg",
+      "supportedPushLocales": ["en", "ru", "fr"]
+  }],
+  "iconsFolder": "icons",
+  "users": [{
+      "user":"admin",
+      "pass":"password"
+    }, {
+      "user":"min",
+      "pass":"min"
+  }]
+}
