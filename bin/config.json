@@ -1,5 +1,4 @@
 {
-  "allowInsecureHTTP": true,
   "apps":[
     {
       "serverURL":"https://parse-server-instances.herokuapp.com/parse",
