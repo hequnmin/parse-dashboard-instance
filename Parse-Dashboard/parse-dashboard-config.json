@@ -1,6 +1,6 @@
 {
   "apps": [{
-      "serverURL":"https://parse-dashboard-instances.herokuapp.com",
+      "serverURL":"https://parse-server-instances.herokuapp.com/parse",
       "appId":"bec",
       "masterKey":"bec",
       "appName":"Becheer",
