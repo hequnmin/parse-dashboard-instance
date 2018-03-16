@@ -1,0 +1,10 @@
+{
+  "apps":[
+    {
+      "serverURL":"https://parse-server-instances.herokuapp.com",
+      "appId":"bec",
+      "masterKey":"bec",
+      "appName":"Becheer"
+    }
+  ]
+}
