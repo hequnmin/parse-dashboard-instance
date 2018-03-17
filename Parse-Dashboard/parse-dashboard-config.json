@@ -1,6 +1,6 @@
 {
   "apps": [{
-      "serverURL":"http://localhost:1337/parse",
+      "serverURL":"https://parse-server-instances.herokuapp.com/parse",
       "appId":"bec",
       "masterKey":"bec",
       "appName":"Becheer",
