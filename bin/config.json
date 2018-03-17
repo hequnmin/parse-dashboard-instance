@@ -8,5 +8,12 @@
       "iconName": "logo.svg"
     }
   ],
-  "iconsFolder": "icons"
+  "iconsFolder": "icons",
+  "users": [{
+    "user":"admin",
+    "pass":"password"
+  }, {
+    "user":"min",
+    "pass":"min"
+  }]
 }

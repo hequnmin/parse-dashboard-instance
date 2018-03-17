@@ -7,5 +7,12 @@
       "iconName": "logo.svg",
       "supportedPushLocales": ["en", "ru", "fr"]
   }],
-  "iconsFolder": "icons"
+  "iconsFolder": "icons",
+  "users": [{
+    "user":"admin",
+    "pass":"password"
+  }, {
+    "user":"min",
+    "pass":"min"
+  }]
 }
