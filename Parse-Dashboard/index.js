@@ -44,14 +44,14 @@ if (trustProxy && allowInsecureHTTP) {
 let explicitConfigFileProvided = !!program.config;
 let configFile = null;
 let configFromCLI = null;
-let configServerURL = program.serverURL || process.env.PARSE_DASHBOARD_SERVER_URL;
-let configMasterKey = program.masterKey || process.env.PARSE_DASHBOARD_MASTER_KEY;
-let configAppId = program.appId || process.env.PARSE_DASHBOARD_APP_ID;
-let configAppName = program.appName || process.env.PARSE_DASHBOARD_APP_NAME;
-let configUserId = program.userId || process.env.PARSE_DASHBOARD_USER_ID;
-let configUserPassword = program.userPassword || process.env.PARSE_DASHBOARD_USER_PASSWORD;
-let configSSLKey = program.sslKey || process.env.PARSE_DASHBOARD_SSL_KEY;
-let configSSLCert = program.sslCert || process.env.PARSE_DASHBOARD_SSL_CERT;
+let configServerURL = process.env.PARSE_DASHBOARD_SERVER_URL || program.serverURL;
+let configMasterKey = process.env.PARSE_DASHBOARD_MASTER_KEY || program.masterKey;
+let configAppId =  process.env.PARSE_DASHBOARD_APP_ID || program.appId;
+let configAppName = process.env.PARSE_DASHBOARD_APP_NAME || program.appName;
+let configUserId = process.env.PARSE_DASHBOARD_USER_ID || program.userId;
+let configUserPassword = process.env.PARSE_DASHBOARD_USER_PASSWORD || program.userPassword;
+let configSSLKey = process.env.PARSE_DASHBOARD_SSL_KEY || program.sslKey;
+let configSSLCert = process.env.PARSE_DASHBOARD_SSL_CERT || program.sslCert;
 if (!program.config && !process.env.PARSE_DASHBOARD_CONFIG) {
   if (configServerURL && configMasterKey && configAppId) {
     configFromCLI = {
